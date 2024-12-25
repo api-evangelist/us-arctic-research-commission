@@ -2,7 +2,7 @@ aid: us-arctic-research-commission
 name: US Arctic Research Commission
 description: >-
   An independent federal agency that advises the President and Congress on
-  domestic and international Arctic research. · An independent federal agency
+  domestic and international Arctic research.  An independent federal agency
   that advises.
 type: Index
 position: Consumer
@@ -20,8 +20,8 @@ apis:
     name: US Arctic Research Commission
     description: >-
       An independent federal agency that advises the President and Congress on
-      domestic and international Arctic research. · An independent federal
-      agency that advises ...
+      domestic and international Arctic research.  An independent federal agency
+      that advises ...
     humanURL: https://www.arctic.gov/
     tags:
       - API
