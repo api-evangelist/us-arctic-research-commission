@@ -21,7 +21,7 @@ type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2024-11-21'
-modified: '2025-01-04'
+modified: '2026-03-16'
 position: Consuming
 description: >-
   The US Arctic Research Commission is an independent agency that provides
@@ -37,5 +37,5 @@ description: >-
   affect both the Arctic and the broader world.
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
 specificationVersion: '0.19'
