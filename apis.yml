@@ -4,8 +4,7 @@ url: >-
 apis:
   - aid: us-arctic-research-commission:us-arctic-research-commission
     name: US Arctic Research Commission
-    tags:
-      - API
+    tags: []
     humanURL: https://www.arctic.gov/
     properties:
       - url: https://www.arctic.gov/
