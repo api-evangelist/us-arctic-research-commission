@@ -1,0 +1,125 @@
+{
+  "name": "Arctic Research Priority",
+  "description": "Structure documentation for research priorities defined by the US Arctic Research Commission",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "description": "Unique identifier for the research priority"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "description": "Title of the research priority area"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": true,
+      "description": "Detailed description of the priority and its significance"
+    },
+    {
+      "name": "reportPeriod",
+      "type": "string",
+      "required": true,
+      "description": "Biennial period (e.g. 2023-2024)"
+    },
+    {
+      "name": "category",
+      "type": "enum",
+      "required": true,
+      "values": [
+        "Climate Change",
+        "Ecosystems",
+        "Human Health",
+        "Indigenous Knowledge",
+        "Economic Resilience",
+        "Critical Mineral Resources",
+        "Emerging Technologies",
+        "International Cooperation",
+        "Community Resilience",
+        "National Security",
+        "Infrastructure",
+        "Ocean Science"
+      ],
+      "description": "Primary research category"
+    },
+    {
+      "name": "objectives",
+      "type": "array<object>",
+      "required": false,
+      "description": "Specific research objectives within this priority",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "Objective identifier"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "Objective title"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": false,
+          "description": "Objective description"
+        },
+        {
+          "name": "leadAgency",
+          "type": "string",
+          "required": false,
+          "description": "Lead federal agency"
+        },
+        {
+          "name": "partnerAgencies",
+          "type": "array<string>",
+          "required": false,
+          "description": "Partner agencies and organizations"
+        }
+      ]
+    },
+    {
+      "name": "geographicScope",
+      "type": "enum",
+      "required": false,
+      "values": ["Pan-Arctic", "Alaska", "Arctic Ocean", "Greenland", "Circumpolar", "International"],
+      "description": "Geographic scope"
+    },
+    {
+      "name": "relevantLegislation",
+      "type": "array<object>",
+      "required": false,
+      "description": "Relevant legislation",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "description": "Legislation name"
+        },
+        {
+          "name": "url",
+          "type": "string (uri)",
+          "description": "URL to document"
+        }
+      ]
+    },
+    {
+      "name": "created",
+      "type": "string (date)",
+      "required": false,
+      "description": "Date established"
+    },
+    {
+      "name": "modified",
+      "type": "string (date)",
+      "required": false,
+      "description": "Date last updated"
+    }
+  ]
+}

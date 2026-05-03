@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/json-schema/us-arctic-research-commission-research-priority-schema.json",
+  "title": "Arctic Research Priority",
+  "description": "Schema for research priorities and goals defined by the US Arctic Research Commission in its biennial Goals and Objectives for Arctic Research reports.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the research priority"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the research priority area"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the research priority and its significance"
+    },
+    "reportPeriod": {
+      "type": "string",
+      "description": "The biennial period this priority applies to (e.g. 2023-2024)"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Climate Change",
+        "Ecosystems",
+        "Human Health",
+        "Indigenous Knowledge",
+        "Economic Resilience",
+        "Critical Mineral Resources",
+        "Emerging Technologies",
+        "International Cooperation",
+        "Community Resilience",
+        "National Security",
+        "Infrastructure",
+        "Ocean Science"
+      ],
+      "description": "Primary research category"
+    },
+    "objectives": {
+      "type": "array",
+      "description": "Specific research objectives within this priority area",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the objective"
+          },
+          "title": {
+            "type": "string",
+            "description": "Title of the specific objective"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the research objective"
+          },
+          "leadAgency": {
+            "type": "string",
+            "description": "Lead federal agency for this objective"
+          },
+          "partnerAgencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Partner federal agencies and organizations"
+          }
+        },
+        "required": ["id", "title"]
+      }
+    },
+    "geographicScope": {
+      "type": "string",
+      "enum": ["Pan-Arctic", "Alaska", "Arctic Ocean", "Greenland", "Circumpolar", "International"],
+      "description": "Geographic scope of the research priority"
+    },
+    "relevantLegislation": {
+      "type": "array",
+      "description": "Relevant legislation or policy directives",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the legislation or policy"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the legislation or policy document"
+          }
+        }
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this research priority was established"
+    },
+    "modified": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this research priority was last updated"
+    }
+  },
+  "required": ["id", "title", "description", "category", "reportPeriod"]
+}

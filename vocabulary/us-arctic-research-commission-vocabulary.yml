@@ -1,0 +1,133 @@
+name: US Arctic Research Commission Vocabulary
+description: >-
+  Vocabulary and taxonomy for the US Arctic Research Commission, covering Arctic research
+  terminology, organizational structure, program areas, geographic concepts, and policy
+  framework used in USARC publications and research goal documents.
+url: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/vocabulary/us-arctic-research-commission-vocabulary.yml
+created: '2026-05-03'
+modified: '2026-05-03'
+
+categories:
+  - name: Organizational Structure
+    description: Organizations involved in Arctic research and policy
+    terms:
+      - term: US Arctic Research Commission
+        abbreviation: USARC
+        definition: >-
+          An independent federal advisory agency created under the Arctic Research and Policy Act of 1984
+          to recommend national Arctic research policy to the President, Congress, and federal agencies.
+      - term: Interagency Arctic Research Policy Committee
+        abbreviation: IARPC
+        definition: >-
+          A federal interagency committee that develops and updates five-year plans for national
+          Arctic research based on USARC recommendations. Coordinated by the National Science Foundation.
+      - term: Arctic Renewable Energy Working Group
+        abbreviation: AREWG
+        definition: >-
+          A USARC working group that addresses critical renewable energy and energy efficiency
+          research needs in Arctic communities.
+      - term: Alaska Rural Water and Sanitation Working Group
+        definition: >-
+          A USARC working group focused on maximizing health benefits of in-home running water
+          and sanitation services in rural Alaska communities.
+
+  - name: Geographic Terms
+    description: Arctic geographic regions and concepts
+    terms:
+      - term: Arctic
+        definition: >-
+          The region north of approximately 66.5 degrees north latitude, including the Arctic Ocean,
+          surrounding seas, and Alaska, Canada, Greenland, Iceland, Norway, Russia, Sweden, and Finland.
+      - term: Pan-Arctic
+        definition: Encompassing or relating to the entire Arctic region across all Arctic nations.
+      - term: Alaska
+        definition: >-
+          The northernmost state of the United States, with significant Arctic territory including
+          the North Slope, Brooks Range, and Arctic National Wildlife Refuge.
+      - term: Arctic Ocean
+        definition: >-
+          The world's smallest and shallowest ocean, mostly covered by sea ice, centered approximately
+          on the North Pole.
+      - term: Permafrost
+        definition: >-
+          Ground that remains completely frozen (0°C or below) for at least two consecutive years,
+          covering about 25% of the northern hemisphere's land surface.
+      - term: Sea Ice
+        definition: >-
+          Frozen seawater that forms when ocean surface temperatures drop below the freezing point
+          of seawater, typically -1.8°C.
+      - term: Tundra
+        definition: >-
+          A biome where the tree growth is hindered by low temperatures and short growing seasons,
+          found in the Arctic and at high altitudes.
+
+  - name: Research Topics
+    description: Primary Arctic research subject areas
+    terms:
+      - term: Arctic Amplification
+        definition: >-
+          The phenomenon whereby climate change causes the Arctic to warm at two to four times
+          the global average rate, due to feedback mechanisms involving sea ice and snow cover.
+      - term: Indigenous Knowledge
+        definition: >-
+          The accumulated knowledge, practices, and beliefs that evolve by adaptive processes and
+          have been handed down through generations by cultural transmission among indigenous Arctic peoples.
+      - term: Arctic Ecosystems
+        definition: >-
+          The complex communities of living organisms and their physical environment in Arctic regions,
+          including marine, freshwater, and terrestrial ecosystems.
+      - term: Critical Mineral Resources
+        definition: >-
+          Minerals deemed essential for economic or national security, found in the Arctic region
+          including rare earth elements, lithium, and cobalt.
+      - term: Community Resilience
+        definition: >-
+          The capacity of Arctic communities to anticipate, prepare for, respond to, and adapt to
+          climate change impacts and other environmental and social stressors.
+      - term: Co-Production of Knowledge
+        definition: >-
+          A collaborative approach to research that meaningfully engages Arctic residents,
+          Indigenous peoples, and scientists to jointly define research questions and methods.
+
+  - name: Climate Science
+    description: Key climate and environmental science concepts
+    terms:
+      - term: Carbon Flux
+        definition: >-
+          The exchange of carbon between the atmosphere and other carbon stores (land, ocean, biosphere),
+          critical in Arctic regions where permafrost thaw releases stored carbon.
+      - term: Thermohaline Circulation
+        definition: >-
+          The global ocean circulation driven by differences in temperature and salinity, influenced
+          by freshwater input from melting Arctic ice.
+      - term: Albedo Effect
+        definition: >-
+          The reflectivity of a surface; snow and ice have high albedo (reflect solar energy),
+          while open water has low albedo, contributing to Arctic warming feedback loops.
+      - term: Arctic Oscillation
+        abbreviation: AO
+        definition: >-
+          A climate pattern characterized by winds circulating counterclockwise around the Arctic
+          at around 55°N latitude, influencing weather patterns in the Northern Hemisphere.
+
+  - name: Policy Framework
+    description: Legal and policy framework for Arctic research
+    terms:
+      - term: Arctic Research and Policy Act
+        abbreviation: ARPA
+        definition: >-
+          The 1984 federal law that established the US Arctic Research Commission and the
+          Interagency Arctic Research Policy Committee.
+      - term: National Arctic Research Plan
+        definition: >-
+          A five-year plan developed by IARPC with input from USARC that outlines federal
+          research priorities and implementation strategies for Arctic research.
+      - term: Arctic Research Plan Implementation Plan
+        definition: >-
+          Biennial plans that detail specific actions federal agencies will take to implement
+          the National Arctic Research Plan.
+      - term: Arctic Council
+        definition: >-
+          A high-level intergovernmental forum that addresses issues faced by the Arctic governments
+          and indigenous peoples of the Arctic, including the United States, Canada, Russia, and
+          five Nordic nations.

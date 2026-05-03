@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "usarc": "https://www.arctic.gov/vocab/",
+
+    "GovernmentOrganization": "GovernmentOrganization",
+    "ResearchProject": "ResearchProject",
+    "ResearchOrganization": "ResearchOrganization",
+    "GovernmentService": "GovernmentService",
+    "Report": "Report",
+
+    "id": "@id",
+    "title": "dct:title",
+    "description": "dct:description",
+    "category": "dct:subject",
+    "reportPeriod": "dct:temporal",
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "objectives": "usarc:objectives",
+    "leadAgency": "usarc:leadAgency",
+    "partnerAgencies": "usarc:partnerAgencies",
+    "geographicScope": "dct:spatial",
+    "relevantLegislation": "usarc:relevantLegislation",
+
+    "ArcticResearchPriority": "usarc:ArcticResearchPriority",
+    "ArcticResearchObjective": "usarc:ArcticResearchObjective",
+    "ArcticRegion": "usarc:ArcticRegion",
+    "IndigenousKnowledge": "usarc:IndigenousKnowledge",
+    "ClimateResearch": "usarc:ClimateResearch",
+    "MarineEcosystem": "usarc:MarineEcosystem",
+    "PolarScience": "usarc:PolarScience",
+    "ArcticCommunity": "usarc:ArcticCommunity",
+    "CriticalMinerals": "usarc:CriticalMinerals",
+
+    "USARC": {
+      "@id": "usarc:USARC",
+      "@type": "GovernmentOrganization"
+    },
+    "IARPC": {
+      "@id": "usarc:IARPC",
+      "@type": "GovernmentOrganization"
+    }
+  }
+}

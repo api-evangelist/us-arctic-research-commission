@@ -1,0 +1,46 @@
+{
+  "@context": "https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/json-ld/us-arctic-research-commission-context.jsonld",
+  "@type": "ArcticResearchPriority",
+  "id": "usarc-priority-climate-change-2023",
+  "title": "Arctic Climate Change Research",
+  "description": "Understanding the accelerated rate of Arctic climate change and its cascading effects on ecosystems, communities, and global climate systems. The Arctic is warming at two to four times the global average rate, making research in this area a critical national priority.",
+  "reportPeriod": "2023-2024",
+  "category": "Climate Change",
+  "geographicScope": "Pan-Arctic",
+  "objectives": [
+    {
+      "id": "usarc-obj-sea-ice-loss",
+      "title": "Sea Ice Extent and Thickness Monitoring",
+      "description": "Monitor and model long-term trends in sea ice extent, thickness, and seasonal variability to improve climate projections and support navigation safety.",
+      "leadAgency": "National Snow and Ice Data Center (NSIDC)",
+      "partnerAgencies": [
+        "National Oceanic and Atmospheric Administration (NOAA)",
+        "National Aeronautics and Space Administration (NASA)",
+        "National Science Foundation (NSF)"
+      ]
+    },
+    {
+      "id": "usarc-obj-permafrost",
+      "title": "Permafrost Thaw and Carbon Release",
+      "description": "Assess the rate of permafrost thaw across the Arctic and quantify greenhouse gas emissions from thawing permafrost to improve global carbon budget estimates.",
+      "leadAgency": "US Geological Survey (USGS)",
+      "partnerAgencies": [
+        "Department of Energy (DOE)",
+        "National Science Foundation (NSF)",
+        "University of Alaska Fairbanks"
+      ]
+    }
+  ],
+  "relevantLegislation": [
+    {
+      "name": "Arctic Research and Policy Act of 1984",
+      "url": "https://www.congress.gov/bill/98th-congress/senate-bill/2114"
+    },
+    {
+      "name": "National Climate Adaptation and Resilience Strategy",
+      "url": "https://www.whitehouse.gov/climate/"
+    }
+  ],
+  "created": "2023-01-01",
+  "modified": "2023-12-15"
+}
