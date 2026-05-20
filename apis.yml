@@ -1,6 +1,9 @@
 aid: us-arctic-research-commission
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/apis.yml
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/us-arctic-research-commission
 apis:
   - aid: us-arctic-research-commission:us-arctic-research-commission
     name: US Arctic Research Commission
