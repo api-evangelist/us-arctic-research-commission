@@ -32,7 +32,7 @@ apis:
       - url: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/json-ld/us-arctic-research-commission-context.jsonld
         type: JSONLDContext
       - url: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/examples/us-arctic-research-commission-research-priority-example.json
-        type: Example
+        type: Examples
     description: >-
       The US Arctic Research Commission (USARC) is an independent federal agency that advises
       the President and Congress on domestic and international Arctic research policy. The Commission
