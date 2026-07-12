@@ -2,6 +2,8 @@ aid: us-arctic-research-commission
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/apis.yml
 common:
+  - type: DomainSecurity
+    url: security/us-arctic-research-commission-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/us-arctic-research-commission
 apis:
