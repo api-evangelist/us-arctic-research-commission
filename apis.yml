@@ -11,6 +11,12 @@ apis:
     name: US Arctic Research Commission
     tags:
       - Arctic Research
+      - Federal-Government
+      - Climate Change
+      - Research Policy
+      - Advisory Commission
+    tags_raw:
+      - Arctic Research
       - Federal Government
       - Climate Change
       - Research Policy
@@ -45,6 +51,14 @@ apis:
       Knowledge, economic resilience, critical minerals, and international Arctic cooperation.
 name: US Arctic Research Commission
 tags:
+  - Arctic Research
+  - Federal-Government
+  - Climate Change
+  - Research Policy
+  - Advisory Commission
+  - Arctic
+  - Environmental Science
+tags_raw:
   - Arctic Research
   - Federal Government
   - Climate Change
